@@ -15,7 +15,7 @@
 
 body {
     color: hsl(0, 0%, 40%);
-    background: var(--main-background);
+    background: var(--main-background) !important;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -327,7 +327,7 @@ a:focus {
 
 .header .content-inner {
     padding: 100px 30px;
-    background: url(../img/profile.png) right bottom no-repeat;
+    /* background: url(../img/profile.png) right bottom no-repeat; */
     background-size: contain;
 }
 
