@@ -3,8 +3,11 @@
 /**********************************/
 
 :root {
-    --main-color: #4267B2;
-    --font-color: #07a343;
+    --main-color: #F8E9EB;
+    --main-background:#252627;
+    --card-background: #D3D4D9;
+    --secondary-background: #4B88A2;
+    --font-color: #F06543;
 }
 
 
@@ -12,7 +15,7 @@
 
 body {
     color: hsl(0, 0%, 40%);
-    background: #4267B2;
+    background: var(--main-background);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -56,7 +59,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #4267B2;
+    background: var(--main-background);
 }
 
 .wrapper .sidebar-header,
@@ -121,7 +124,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #4267B2;
+        background: var(--main-background);
         z-index: 1;
     }
     
@@ -318,7 +321,8 @@ a:focus {
 /**********************************/
 .header {
     position: relative;
-    background: #ffffff;
+    /* background: #ffffff; */
+    background: var(--card-background);
 }
 
 .header .content-inner {
@@ -359,7 +363,7 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #4267B2;
+    border-bottom: 30px solid var(--secondary-background);
 }
 
 .large-btn .btn {
@@ -433,8 +437,8 @@ a:focus {
 .about {
     position: relative;
     padding: 60px 30px;
-    background: #ffffff;
-    border-bottom: 30px solid #4267B2;
+    background: var(--card-background);
+    border-bottom: 30px solid var(--secondary-background);
 }
 
 
@@ -484,7 +488,7 @@ a:focus {
     height: 5px;
     border: 1px solid var(--font-color);
     border-radius: 0;
-    background: #ffffff;
+    background: var(--card-background);
 }
 
 .about .progress .progress-bar {
@@ -501,8 +505,8 @@ a:focus {
 .education {
     position: relative;
     padding: 60px 30px;
-    background: #ffffff;
-    border-bottom: 30px solid #4267B2;
+    background: var(--card-background);
+    border-bottom: 30px solid var(--secondary-background);
 }
 
 .education .edu-col {
@@ -574,8 +578,8 @@ a:focus {
 .experience {
     position: relative;
     padding: 60px 30px;
-    background: #ffffff;
-    border-bottom: 30px solid #4267B2;
+    background: var(--card-background);
+    border-bottom: 30px solid var(--secondary-background);
 }
 
 .experience .exp-col {
@@ -661,8 +665,8 @@ a:focus {
 .service {
     position: relative;
     padding: 60px 30px 30px 30px;
-    background: #ffffff;
-    border-bottom: 30px solid #4267B2;
+    background: var(--card-background);
+    border-bottom: 30px solid var(--secondary-background);
 }
 
 .service .srv-col {
@@ -708,8 +712,8 @@ a:focus {
 .portfolio {
     position: relative;
     padding: 60px 30px 30px 30px;
-    background: #ffffff;
-    border-bottom: 30px solid #4267B2;
+    background: var(--card-background);
+    border-bottom: 30px solid var(--secondary-background);
 }
 
 .portfolio #portfolio-flters {
@@ -730,7 +734,7 @@ a:focus {
     line-height: 15px;
     text-transform: uppercase;
     border: 1px solid var(--font-color);
-    background: #ffffff;
+    background: var(--card-background);
     transition: all 0.3s ease-in-out;
 }
 
@@ -747,7 +751,7 @@ a:focus {
 }
 
 .portfolio .portfolio-item figure {
-    background: #ffffff;
+    background: var(--card-background);
     overflow: hidden;
     height: 220px;
     position: relative;
@@ -855,8 +859,8 @@ a:focus {
 /**********************************/
 .review {
     position: relative;
-    background: #ffffff;
-    border-bottom: 30px solid #4267B2;
+    background: var(--card-background);
+    border-bottom: 30px solid var(--secondary-background);
 }
 
 .review .content-inner {
@@ -958,7 +962,7 @@ a:focus {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 18px;
-    color: #ffffff;
+    color: var(--card-background);
 }
 
 .review-slider .slick-prev::before {
@@ -993,7 +997,7 @@ a:focus {
 .contact {
     position: relative;
     padding: 60px 30px 30px 30px;
-    background: #ffffff;
+    background: var(--card-background);
 }
 
 .contact .contact-info {
@@ -1083,7 +1087,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 30px 30px 0 30px;
-    background: #4267B2;
+    background: var(--secondary-background);
 }
 
 .footer .col-md-6:last-child {
