@@ -1,482 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dennis Ivy</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+    <body>
+        <div id="container--main">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="dmprabath prabath lakshitha" name="keywords">
-    <meta content="DM Prabath Lakshitha- I am a python developer, I started development for 3 years" name="description">
-    <title>dmprabath</title>
+            <section id="wrapper--hero" class="section--page">
+                <img id="profile-pic" src="./assets/images/profile_pic.JPG">
 
-    <!-- Favicon -->
-    <link href="img/favicon.png" rel="icon">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+                <div>
+                    <h1 id="user-name">Dennis Ivanov</h1>
+                    <p id="bio">Software developer, developer advocate at <a href="https://www.agora.io/en/" target="_blank">Agora</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> with 166k+ subs and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
+                    <p id="email">👉 dennis@dennisivy.com</p>
+                </div>  
+            </section>
 
-    <!-- CSS Libraries -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/slick/slick.css" rel="stylesheet">
-    <link href="lib/slick/slick-theme.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <link href="css/style.css" rel="stylesheet" />
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-
-</head>
-
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <div class="wrapper">
-        <div class="sidebar">
-            <div class="sidebar-header">
-                <img src="img/profile.jpg" alt="Image">
-            </div>
-            <div class="sidebar-content">
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">DM PRABATH</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#header">Home<i class="fa fa-home"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About<i class="fa fa-address-card"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#experience">Experience<i class="fa fa-star"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#service">Service<i class="fa fa-tasks"></i></a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="#portfolio">Portfolio<i class="fa fa-file-archive"></i></a>
-                            </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact<i class="fa fa-envelope"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="sidebar-footer">
-                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-                <a href="https://www.facebook.com/dmprabath"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/dmprabath/"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-        <div class="content">
-            <div class="header" id="header">
-                <div class="content-inner">
-                    <p>I'm</p>
-                    <h1>DMPRABATH</h1>
-                    <h2></h2>
-                    <div class="typed-text">Django Developer, PHP Developer, HTML Developer, React Developer</div>
+            <section class="section--page">
+        
+                <div id="socials--list">
+                    <a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a>
+                    <a href="https://twitter.com/dennisivy11" target="_blank">Twitter</a>
+                    <a href="https://www.linkedin.com/in/dennis-ivanov/" target="_blank">Linkedin</a>
+                    <a href="https://github.com/divanov11" target="_blank">Github</a>
+                    <a href="./assets/resume.pdf" target="_blank">Download Resume</a>
                 </div>
-            </div>
-            <!-- Large Button Start -->
-            <div class="large-btn">
-                <div class="content-inner">
-                    <a class="btn"
-                        href="https://www.linkedin.com/ambry/?x-li-ambry-ep=AQGoqgULdt1uAQAAAXpn9rnzTsrJzunjbPv_9Mw0lRh1GH7flDmAdeaUoluQijbQ8hgbrDeP_BNJ0vaNCEXV6eTrnZp5hRo8UKyGFuNnXoxhKpDe20UVALxy3H-XS9OIlzYlU1guKaJntbr-EpKwt3Rm02L2saGP_McMYz7wf3pHS0sreaL8h7PZE0eTQPfaQXVFk5so-dmNup5WLuhF8TrXwb80zDOVUBha9biF9k3xIb7PjxDKVjxbYBphKAqHayZ3YUaUVd1r9yyBJ_TXd9F6X0P9RbPG-m44iUIb_x60xcz0lJWnpLzrqoC1r7tDWO-XAai2AlqQeL50hPGAOeuKkqNiUOgsw7tHMwaAPP8B4Nk9I_2zYaRXSlE_62AS5FymCBEj4A62ynVVIj9i3XpM17e4pnwHrlSkvlsoaCklo_hsNYVgfWxkN4oJmpXrj2eZvKzrNmX2QmuZLVTJSbH6r0vG2pEDTjUM_1fhrIZ2NV9uq6Qs-RJAE7exJbQIKSoGyp4mUGJOwjlEkfGJ"><i
-                            class="fa fa-download"></i>Download Resume</a>
+            </section>
+
+            <section class="section--page">
+                <h2>Skills & Qualifications</h2>
+                <ul id="qualifications--list">
+                    <li>✔️ 7 Years experience with front & backend development</li>
+                    <li>✔️ Extensive knowledge in API & Database Design.</li>
+                    <li>✔️ Experienced content creator on YouTube & community leader </li>
+                    <li>✔️ 7 Years experience with running Adwords campaigns & SEO</li>
+                </ul>
+            </section>
+
+            <section class="section--page">
+                <h2>Tech stack</h2>
+
+                <div id="wrapper--techstack__items">
+                    <div class="card--techstack"><span>Python, JavaScript, NodeJS</span></div>
+                    <div class="card--techstack"><span>Django, Express, Flask, FastAPI</span></div>
+                    <div class="card--techstack"><span>React, Next JS</span></div>
+                    <div class="card--techstack"><span>Postgres, MongoDB, MySQL</span></div>
                 </div>
-            </div>
-            <!-- Large Button End -->
+            </section>
 
-            <!-- About Start -->
-            <div class="about" id="about">
-                <div class="content-inner">
-                    <div class="content-header">
-                        <h2>About Me</h2>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 col-lg-5">
-                            <img src="img/profile.png" alt="Image">
-                        </div>
-                        <div class="col-md-6 col-lg-7">
-                            <p>
-                                I was born in 1995. I live in Beliatta, Srilanka and work in Freelancer as a Python/Odoo
-                                Developer. I’ve been a professional developer for more than 2 years.
-                                I’ve mostly worked professionally with Python, and PHP but also a little bit with React.
-                            </p>
-                            <!-- <a class="btn" href="#">Hire Me</a> -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>Design</p>
-                                    <p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Ability to adapt in different environments</p>
-                                    <p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>Fast Learner</p>
-                                    <p>90%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Decision Making</p>
-                                    <p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                                        aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <section id="work-history-wrapper" class="section--page">
+                <h2>Work History</h2>
 
-
+                <div class="line-break"></div>
+                <div class="card--work-history">
+                    <strong>🚧 DEVELOPER ADVOCATE | AGORA.IO</strong>
+                    <p>11/2021 - Present</p>
+                    <p>Worked on making Agora’s Web Based SDK more accessible through video tutorials, articles, demo projects and event based training. Also building out React UI components & leading a team to re-design Agora’s documentation and api reference.</p>
+                    <ul>
+                        <li>Doubled Web SDK’s monthly usage minutes from 15 million to 30 million minutes within my first 4 months</li>
+                        <li>Produced educational video content which resulted in 300k+ views on youtube</li>
+                        <li>Produced SEO campaigns and content to gain market share for related keywords.</li>
+                    </ul>
                 </div>
-            </div>
-            <!-- About End -->
-            <!-- Education Start -->
-            <div class="education" id="education">
 
-                <div class="content-inner">
-                    <div class="content-header">
-                        <h2>Education</h2>
-                    </div>
-                    <div class="row align-items-center">
-                        <!-- <div class="col-md-6">
-                            <div class="edu-col">
-                                <span>01-Jan-2020 <i>to</i> 31-Dec-2050</span>
-                                <h3>Master Degree</h3>
-                                <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="edu-col">
-                                <span>01-Jan-2020 <i>to</i> 31-Dec-2050</span>
-                                <h3>Bachelor Degree</h3>
-                                <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
-                            </div>
-                        </div> -->
-                        <div class="col-md-6">
-                            <div class="edu-col">
-                                <span>Jan-2019 <i>to</i> Jan-2020</span>
-                                <h3>Bachelor of Computing</h3>
-                                <p>University of Colombo School of Computing.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="edu-col">
-                                <span>2015</span>
-                                <h3>Advanced A/L</h3>
-                                <p>H/ Ruhunu Vijayaba National Collage</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="line-break"></div>
+
+                <div class="card--work-history">
+                    <strong>🚧 INSTRUCTOR | YOUTUBE, UDEMY, TEACHABLE</strong>
+                    <p>11/2019 - Present</p>
+                    <p>Produced content showcasing new tech, tutorials & interviews with top developers.</p>
+                    <ul>
+                        <li>166,000+ Youtube Subscribers</li>
+                        <li>30,000 course copies sold</li>
+                        <li>12+ Million views on Youtube</li>
+                        <li>Made regular contributions to Traversy Medias youtube channel (1.9m Subscribers)</li>
+                        <li>Tutorial videos included projects such as social networks, Ecommerce, real time video, stripe & paypal integrations and more </li>
+                    </ul>
                 </div>
-            </div>
-            <!-- Education Start -->
 
-            <!-- Experience Start -->
-            <div class="experience" id="experience">
-                <div class="content-inner">
-                    <div class="content-header">
-                        <h2>Experience</h2>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div class="exp-col">
-                                <span>Present <i>to</i> 25-Feb-2021</span>
-                                <h3>Lead ERP Developer - Python</h3>
-                                <h4>Codeso (PVT) Ltd</h4>
-                                <h5>Kesbawa, Srilanka</h5>
+                <div class="line-break"></div>
 
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="exp-col">
-                                <span>25-Feb-2021 <i>to</i> 25-Nov-2020</span>
-                                <h3>Associate ERP Developer - Python</h3>
-                                <h4>Codeso (PVT) Ltd</h4>
-                                <h5>Kesbawa, Srilanka</h5>
-
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="exp-col">
-                                <span>25-Nov-2020 <i>to</i> 25-Jun-2020</span>
-                                <h3>Trainee ERP Developer - Python</h3>
-                                <h4>Codeso (PVT) Ltd</h4>
-                                <h5>Kesbawa, Srilanka</h5>
-
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="card--work-history">
+                    <strong>🚧 SENIOR DEVELOPER | FOI LABS</strong>
+                    <p>10/2017 - 10/2019</p>
+                    <p>Designed and developed a laboratory management system. My system
+                        provided an interface for lab technicians and customers to view and
+                        track data from samples tested in the lab.</p>
+                    <ul>
+                        <li>Designed prototype & pitched original idea for new lab management system (LIMS)</li>
+                        <li>Built entire code base and brought version 1 of LIMS system to market as a solo developer</li>
+                        <li>Onboarded and trained customers (Webinars & Conferences)</li>
+                        <li>Managed a small team of developers in expansion of LIMS system</li>
+                    </ul>
                 </div>
-            </div>
 
-            <!-- Service Start -->
-            <div class="service" id="service">
-                <div class="content-inner">
-                    <div class="content-header">
-                        <h2>Service</h2>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div class="srv-col">
-                                <i class="fa fa-rss"></i>
-                                <h3>ERP Development</h3>
-                                <p>Odoo Base ERP development. HRM, Sales, Purchase, Account and Manufacture</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="srv-col">
-                                <i class="fa fa-laptop"></i>
-                                <h3>Web Development</h3>
-                                <p>Landing page and woo commerce development. React, HTML, CSS, Wordpress</p>
-                            </div>
-                        </div>
-                        <!-- <div class="col-md-6">
-                            <div class="srv-col">
-                                <i class="fa fa-search"></i>
-                                <h3>SEO</h3>
-                                <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
-                            </div>
-                        </div> -->
-                        <div class="col-md-6">
-                            <div class="srv-col">
-                                <i class="fa fa-envelope-open-text"></i>
-                                <h3>Social Media Marketing</h3>
-                                <p>Manage Social medias Facebook, Instagram .etc.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="line-break"></div>
+
+                <div class="card--work-history">
+                    <strong>🚧 DIGITAL MARKETER | UNIFIVE DIGITAL</strong>
+                    <p>2014 - 2017</p>
+                    <p>Started a digital agency building websites and marketing for
+                        local businesses. Mostly Wordpress sites with small modifications to
+                        themes.</p>
+                    <ul>
+                        <li>Organized SEO & SEM campaigns on a local and global scale.</li>
+                        <li>Saved a customer $110k a year by reducing Adwords CPC cost with optimization</li>
+                        <li>70 + websites built with my small team of developers and freelancers</li>
+                    </ul>
                 </div>
-            </div>
-            <!-- Service Start -->
+            </section>
 
+            <section class="section--page">
+                <h2>Projects & Accomplishments</h2>
 
-            <!-- Portfolio Start -->
-            <div class="portfolio" id="portfolio">
-                <div class="content-inner">
-                    <div class="content-header">
-                        <h2>Portfolio</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <ul id="portfolio-flters">
-                                <li data-filter="*" class="filter-active">All</li>
-                                <li data-filter=".web-des">ERP</li>
-                                <li data-filter=".web-dev">Development</li>
-                                <!-- <li data-filter=".dig-mar">Marketing</li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row portfolio-container">
-                        <div class="col-lg-4 col-md-6 portfolio-item web-des">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/smarttrading.png" class="img-fluid" alt="">
-                                    <a href="img/smarttrading.png" data-lightbox="portfolio"
-                                        data-title="Smart Trading (PVT) Ltd" class="link-preview" title="Preview"><i
-                                            class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Smart Trading (PVT) Ltd <span>ERP
-                                            Development</span></a>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
-                                    <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"
-                                        data-title="Cosmic Engineering" title="Preview"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Cosmic Engineering<span>Web Design</span></a>
-                                </figure>
-                            </div>
-                        </div>
-                        <!--
-                        <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
-                                    <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio"
-                                        data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name <span>Web Development</span></a>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item web-dev">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-4.jpg" class="img-fluid" alt="">
-                                    <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio"
-                                        data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name <span>Web Development</span></a>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-5.jpg" class="img-fluid" alt="">
-                                    <a href="img/portfolio-5.jpg" class="link-preview" data-lightbox="portfolio"
-                                        data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name <span>Digital Marketing</span></a>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
-                            <div class="portfolio-wrap">
-                                <figure>
-                                    <img src="img/portfolio-6.jpg" class="img-fluid" alt="">
-                                    <a href="img/portfolio-6.jpg" class="link-preview" data-lightbox="portfolio"
-                                        data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
-                                    <a class="portfolio-title" href="#">Project Name <span>Digital Marketing</span></a>
-                                </figure>
-                            </div>
-                        </div> -->
-                    </div>
+                <div class="card--project">
+                    <a href="project1.html"><span>🏆 </span>Built a Laboratory management system for forensics lab</a>
                 </div>
-            </div>
-            <!-- Portfolio Start -->
 
-            <!-- Contact Start -->
-            <div class="contact" id="contact">
-                <div class="content-inner">
-                    <div class="content-header">
-                        <h2>Contact</h2>
-                    </div>
-                    <div class="row align-items-center">
-                        <!-- <div class="col-md-6">
-                            <div class="contact-info">
-                              <p><i class="fa fa-user"></i>DM Prabath Lakshitha Sandaruwan</p>
-                                <p><i class="fa fa-tag"></i>Associate Software Engineer</p>
-                                <p><i class="fa fa-envelope"></i><a
-                                        href="mailto:dmprabath1995@gmail.com">dmprabath1995@gmail.com</a></p>
-                                <p><i class="fa fa-phone"></i><a href="tel:+94775197009">+9477 519 7009</a></p>
-                                <p><i class="fa fa-map-marker"></i>Prasanga, Mahaheella, Beliatta, Srilanka</p> 
-
-                            </div>
-                        </div> -->
-                        <div class="col-md-6">
-
-                            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large"
-                                data-theme="dark" data-type="HORIZONTAL" data-vanity="dmprabath" data-version="v1"><a
-                                    class="badge-base__link LI-simple-link"
-                                    href="https://lk.linkedin.com/in/dmprabath?trk=profile-badge" target="_blank"></a>
-                            </div>
-
-                            <div class="social text-center">
-                                <!-- <a class="btn" href=""><i class="fab fa-twitter"></i></a> -->
-                                <a class="btn" href="https://www.facebook.com/dmprabath"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn" href="https://www.linkedin.com/in/dmprabath/"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                <!-- <a class="btn" href=""><i class="fab fa-instagram"></i></a> -->
-                                <a class="btn" href="https://www.instagram.com/dmprabath"><i
-                                        class="fab fa-youtube"></i></a>
-                            </div>
-
-
-                            <!-- <div class="form">
-                                <form id="contact-form" action="index.html" method="POST">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <input type="text" class="form-control" placeholder="Your Name" />
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <input type="email" class="form-control" placeholder="Your Email" />
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject" />
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                                    </div>
-                             
-                                    <div><input class="btn" type="submit" value="Submit"></div>
-                                </form>
-                            </div> -->
-                        </div>
-                    </div>
+                <div class="card--project">
+                    <a href="project1.html" ><span>🏆 </span>Documentation website - Lead team to re-build docs for agora.io</a>
                 </div>
-            </div>
-            <!-- Contact End -->
 
-            <!-- Footer Start -->
-            <div class="footer">
-                <div class="content-inner">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <p>All Rights Reserved</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p>Powered by <a href="">DMPRABATH</a></p>
-                        </div>
-                    </div>
+                <div class="card--project">
+                    <a href="project1.html" ><span>🏆 </span>Ecommerce platform using paypal and stripe API for payment integration</a>
                 </div>
-            </div>
-            <!-- Footer Start -->
 
+                <div class="card--project">
+                    <a href="project1.html"><span>🏆 </span>Social Network - open source project</a>
+                </div>
 
+            </section>
+
+       
         </div>
 
-
-    </div>
-
-    <!-- Back to Top -->
-    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-    <!-- <script>
-        function onSubmit(token) {
-            document.getElementById("contact-form").submit();
-        }
-    </script> -->
-    <!-- JavaScript Libraries -->
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/slick/slick.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <script src="js/main.js"></script>
-
-
-
-</body>
-
+    </body>
 </html>
